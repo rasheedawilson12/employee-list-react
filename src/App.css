@@ -1,0 +1,107 @@
+.App {
+  display: flex;
+  border: solid black;
+  width: 75%;
+  margin: 50px auto;
+}
+
+.Homepage {
+  width: 50%;
+  border-right: solid gray;
+}
+
+.Header {
+  text-align: center;
+  border-bottom: solid gray;
+}
+
+.Search {
+  text-align: center;
+  padding: 10px;
+}
+
+.searchbar {
+  width: 90%;
+}
+
+.EmployeeList {
+  border-top: solid grey;
+}
+
+.EmployeeListItem {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: solid grey;
+  padding: 5px;
+}
+
+.EmployeeListItem:hover {
+  cursor: pointer;
+}
+
+.EmployeeImg {
+  width: 75px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 0 5px;
+}
+
+.EmployeeInfo {
+  display: block;
+  width: 75%;
+  line-height: 5px;
+  padding-left: 10px;
+  margin: 8px 0;
+}
+
+.EmployeePage {
+  width: 50%;
+}
+
+.Employee {
+  margin: 65px auto;
+  height: 65%;
+  width: 90%;
+}
+
+.currentEmployee {
+  display: flex;
+  border: solid lightgray;
+  height: 33%;
+  padding: 5px;
+}
+
+.currentEmployeeImg {
+  border: 1px solid black;
+  width: 40%;
+  border-radius: 50%;
+  margin: 0 8px;
+}
+
+.currentEmployeeInfo {
+  display: block;
+  width: 75%;
+  line-height: 5px;
+  padding-left: 10px;
+  margin: auto;
+}
+
+.officePhone {
+  border: solid lightgray;
+  padding: 10px;
+}
+
+.mobilePhone {
+  border: solid lightgray;
+  padding: 10px;
+}
+
+.smsPhone {
+  border: solid lightgray;
+  padding: 10px;
+}
+
+.email {
+  border: solid lightgray;
+  padding: 10px;
+}
